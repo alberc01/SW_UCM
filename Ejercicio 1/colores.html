@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Estilos</title>
+			 <link id="estilo" rel="stylesheet" type="text/css" href="default.css">
+		<script type="text/javascript">
+			function cambiarCss(newS) {
+				document.getElementById('estilo').setAttribute('href',newS);
+			}
+		</script>
+	</head>
+	<body>
+		<h1>
+			Pagina sencilla para decorar con estilos.
+		</h1>
+		<p>
+			Este es el primer parrafo, que no tiene nada de especial.
+		</p>
+		<h2>
+			Esto es un titulo de segundo nivel.
+		</h2>
+		<p>
+			Que tiene dentro un parrafo con <em>un fragmento enfatizado</em>.
+		</p>
+		<h3>
+			Esto es un titulo de tercer nivel
+		</h3>
+		<p>
+			El tercer parrafo tampoco tiene nada de especial.
+		</p>
+		<button type="button" onclick="cambiarCss('Verde.css')">Verde</button>
+		<button type="button" onclick="cambiarCss('marron.css')">Marron y grande</button>
+		<button type="button" onclick="cambiarCss('consola.css')">consola</button>
+	</body>
+</html>
+
